@@ -1,7 +1,5 @@
 ## Hi there 👋
 
-![GitHub contribution snake](https://raw.githubusercontent.com/gyossii/gyossii/output/github-snake.svg)
-
 <p align="center">
   <picture>
     <source
