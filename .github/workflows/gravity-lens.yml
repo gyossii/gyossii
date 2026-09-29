@@ -2,7 +2,7 @@ name: generate gravity-lens
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # 毎日 UTC 00:00
+    - cron: "0 0 * * *"   # daily at 00:00 UTC
   workflow_dispatch:
   push:
     branches: [ main ]
@@ -22,21 +22,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: 生成（dark）
+      - name: Generate (dark)
         uses: Rujuu-prog/github-contribution-gravity-lens@v1.0.0
         with:
           github-token: ${{ github.token }}
           theme: github
           output-path: dist/gravity-lens-dark.svg
 
-      - name: 生成（light）
+      - name: Generate (light)
         uses: Rujuu-prog/github-contribution-gravity-lens@v1.0.0
         with:
           github-token: ${{ github.token }}
           theme: paper-light
           output-path: dist/gravity-lens.svg
 
-      - name: output ブランチへデプロイ
+      - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v3.2.0
         with:
           target_branch: output
