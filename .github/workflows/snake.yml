@@ -1,9 +1,17 @@
 name: Generate Snake
 
 on:
-  workflow_dispatch:
+  # Atualiza automaticamente quando houver push na main
+  push:
+    branches:
+      - main
+
+  # Atualiza diariamente
   schedule:
     - cron: "0 0 * * *"
+
+  # Permite executar manualmente pelo Actions
+  workflow_dispatch:
 
 jobs:
   generate:
@@ -21,9 +29,10 @@ jobs:
             dist/github-snake.svg?palette=github-light
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Push to output branch
+      - name: Publish Snake to gh-pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
+          target_branch: gh-pages
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
