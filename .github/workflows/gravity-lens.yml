@@ -26,7 +26,7 @@ jobs:
         uses: Rujuu-prog/github-contribution-gravity-lens@v1.0.0
         with:
           github-token: ${{ github.token }}
-          theme: event-horizon
+          theme: monochrome
           output-path: dist/gravity-lens-dark.svg
 
       - name: Generate (light)
