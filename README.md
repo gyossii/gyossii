@@ -1,10 +1,7 @@
 <!-- HEADER -->
 
 <p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0d1117&desc=Infraestrutura%20%7C%20Front-end%20%7C%20Automação%20%7C%203D%20Printing%20%7C%20Hardware&descAlignY=40&animation=fadeIn&v=2"
-    width="100%"
-  />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&color=gradient&animation=fadeIn" width="100%"/>
 </p>
 
 <!-- INTRO -->
