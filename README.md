@@ -1,9 +1,3 @@
-<!-- HEADER -->
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&color=gradient&animation=fadeIn" width="100%"/>
-</p>
-
 <!-- INTRO -->
 
 <table>
@@ -22,7 +16,41 @@ Estou sempre buscando aprender algo novo e entender um pouco mais sobre como as 
 
 <td width="35%" align="center" valign="middle">
 
-<img src="https://github-readme-stats-fast.vercel.app/api?username=gyossii&show_icons=true&theme=dark&hide_border=true" width="100%"/>
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-readme-stats-fast.vercel.app/api?username=gyossii&show_icons=true&theme=dark"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://github-readme-stats-fast.vercel.app/api?username=gyossii&show_icons=true&theme=catppuccin_latte"
+    />
+    <img
+      alt="GitHub Stats"
+      src="https://github-readme-stats-fast.vercel.app/api?username=gyossii&show_icons=true&theme=dark"
+      width="100%"
+    />
+  </picture>
+
+  <br>
+
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=gyossii&hide_progress=true&theme=dark"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=gyossii&hide_progress=true&theme=flag-india"
+    />
+    <img
+      src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=gyossii&hide_progress=true&theme=dark"
+      alt="Top Languages"
+      width="100%"
+    />
+  </picture>
+</p>
 
 </td>
 </tr>
@@ -72,51 +100,51 @@ Explorando engenharia de dados, inteligência artificial e suas aplicações.
 
 ## 🔧 Projetos
 
-### 🖨️ K1 Custom 3D Printer
+<table>
+<tr>
 
-Projeto de modificação e reconstrução de uma **Creality K1**, com foco em confiabilidade, materiais de alta temperatura e personalização de hardware.
+<td width="50%" valign="top">
 
-O projeto envolve uma nova arquitetura de eletrônica baseada em **Klipper**, modificações mecânicas, sistema multimaterial, toolhead personalizado e melhorias voltadas ao controle térmico.
+<h3>🖨️ K1 Custom 3D Printer</h3>
 
----
-
-## 📊 Estatísticas
-
-<p align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats-fast.vercel.app/api?username=gyossii&show_icons=true&theme=dark"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-stats-fast.vercel.app/api?username=gyossii&show_icons=true&theme=catppuccin_latte"
-    />
-    <img
-      alt="GitHub Stats"
-      src="https://github-readme-stats-fast.vercel.app/api?username=gyossii&show_icons=true&theme=dark"
-      height="180"
-    />
-  </picture>
-
-  
-
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=gyossii&hide_progress=true&theme=dark"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=gyossii&hide_progress=true&theme=flag-india"
-    />
-    <img
-      src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=gyossii&hide_progress=true&theme=dark"
-      alt="Top Languages"
-      height="180"
-    />
-  </picture>
+<p>
+Modificação e reconstrução de uma <strong>Creality K1</strong>, com foco em confiabilidade, materiais de alta temperatura e personalização de hardware.
 </p>
+
+<p>
+<strong>Tecnologias:</strong><br>
+Klipper · Python · CAD · Eletrônica
+</p>
+
+<p>
+<a href="https://github.com/gyossii/k1">📂 Ver repositório →</a>
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>💻 MyPortfolio</h3>
+
+<p>
+Portfólio pessoal desenvolvido para apresentar meus projetos, experiências e conhecimentos em desenvolvimento web.
+</p>
+
+<p>
+<strong>Tecnologias:</strong><br>
+React · JavaScript · HTML · CSS
+</p>
+
+<p>
+<a href="https://gioportfolio.netlify.app/">🌐 Acessar portfólio →</a>
+<br>
+<a href="https://github.com/gyossii/myportfolio">📂 Ver repositório →</a>
+</p>
+
+</td>
+
+</tr>
+</table>
 
 ---
 
@@ -138,10 +166,4 @@ O projeto envolve uma nova arquitetura de eletrônica baseada em **Klipper**, mo
       width="100%"
     />
   </picture>
-</p>
-
-<!-- FOOTER -->
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient&animation=fadeIn" width="100%"/>
 </p>
