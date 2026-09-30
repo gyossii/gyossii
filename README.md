@@ -9,7 +9,7 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats-fast.vercel.app/api?username=gyossii&show_icons=true&theme=catppuccin_mocha"
+    srcset="https://github-readme-stats-fast.vercel.app/api?username=gyossii&show_icons=true&theme=dark"
   />
   <source
     media="(prefers-color-scheme: light)"
@@ -17,7 +17,7 @@
   />
   <img
     alt="GitHub Stats"
-    src="https://github-readme-stats-fast.vercel.app/api?username=gyossii&show_icons=true&theme=catppuccin_mocha"
+    src="https://github-readme-stats-fast.vercel.app/api?username=gyossii&show_icons=true&theme=dark"
   />
 </picture>
 
