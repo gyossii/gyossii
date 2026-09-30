@@ -26,14 +26,14 @@ jobs:
         uses: Rujuu-prog/github-contribution-gravity-lens@v1.0.0
         with:
           github-token: ${{ github.token }}
-          theme: solar-flare
+          theme: event-horizon
           output-path: dist/gravity-lens-dark.svg
 
       - name: Generate (light)
         uses: Rujuu-prog/github-contribution-gravity-lens@v1.0.0
         with:
           github-token: ${{ github.token }}
-          theme: solar-flare
+          theme: event-horizon
           output-path: dist/gravity-lens.svg
 
       - name: Deploy to output branch
